@@ -23,7 +23,7 @@ function appendKitten(name) {var newKittens = [...kittens, name];
 
 var kittens = ['Milo', 'Otis', 'Garfield']
 
-function prependKitten(name) {var newKittens = kittens.prepend(name);}
+function prependKitten(name) {var newKittens = [name,...kittens]}
 
 var kittens = ['Milo', 'Otis', 'Garfield']
 
