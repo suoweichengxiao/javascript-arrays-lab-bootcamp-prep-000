@@ -28,7 +28,8 @@ return newKittens}
 
 var kittens = ['Milo', 'Otis', 'Garfield']
 
-function removeLastKitten() {kittens.slice(0, -1);}
+function removeLastKitten() {var newKittens = kittens.slice(0, -1);
+return newKittens}
 
 var kittens = ['Milo', 'Otis', 'Garfield']
 
